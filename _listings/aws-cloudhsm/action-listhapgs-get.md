@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=ListHapgs&k=1:
+  /?Action=ListHapgs:
     get:
       summary: ' List HAPG '
       description: Lists the high-availability partition groups for the account
