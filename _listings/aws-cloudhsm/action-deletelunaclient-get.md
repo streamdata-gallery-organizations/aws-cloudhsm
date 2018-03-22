@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DeleteLunaClient&k=1:
+  /?Action=DeleteLunaClient:
     get:
       summary: ' Delete Luna Client '
       description: Deletes a client
