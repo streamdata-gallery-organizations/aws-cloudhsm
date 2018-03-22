@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=ModifyHsm&k=1:
+  /?Action=ModifyHsm:
     get:
       summary: ' Modify HSM '
       description: Modifies an HSM
