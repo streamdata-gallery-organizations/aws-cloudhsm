@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DeleteHapg&k=1:
+  /?Action=DeleteHapg:
     get:
       summary: ' Delete HAPG '
       description: Deletes a high-availability partition group
