@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=CreateHsm&k=1:
+  /?Action=CreateHsm:
     get:
       summary: ' Create HSM '
       description: Creates an uninitialized HSM instance
