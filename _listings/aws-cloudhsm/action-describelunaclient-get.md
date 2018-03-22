@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeLunaClient&k=1:
+  /?Action=DescribeLunaClient:
     get:
       summary: ' Describe Luna Client '
       description: Retrieves information about an HSM client
