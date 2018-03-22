@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=ListLunaClients&k=1:
+  /?Action=ListLunaClients:
     get:
       summary: ' List Luna Clients '
       description: Lists all of the clients
