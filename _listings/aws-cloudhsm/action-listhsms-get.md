@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=ListHsms&k=1:
+  /?Action=ListHsms:
     get:
       summary: ' List HSM '
       description: |-
