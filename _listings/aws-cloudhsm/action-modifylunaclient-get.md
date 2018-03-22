@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=ModifyLunaClient&k=1:
+  /?Action=ModifyLunaClient:
     get:
       summary: ' Modify Luna Client '
       description: Modifies the certificate used by the client
