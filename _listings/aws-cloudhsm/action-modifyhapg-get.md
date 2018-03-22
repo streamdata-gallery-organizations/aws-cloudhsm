@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=ModifyHapg&k=1:
+  /?Action=ModifyHapg:
     get:
       summary: ' Modify HAPG '
       description: Modifies an existing high-availability partition group
