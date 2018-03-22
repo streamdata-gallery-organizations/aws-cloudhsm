@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeHapg&k=1:
+  /?Action=DescribeHapg:
     get:
       summary: ' Describe HAPG '
       description: Retrieves information about a high-availability partition group
