@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeHsm&k=1:
+  /?Action=DescribeHsm:
     get:
       summary: ' Describe HSM'
       description: Retrieves information about an HSM
