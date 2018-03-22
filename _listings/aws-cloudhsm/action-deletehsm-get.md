@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DeleteHsm&k=1:
+  /?Action=DeleteHsm:
     get:
       summary: ' Delete HSM '
       description: Deletes an HSM
